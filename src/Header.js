@@ -10,21 +10,21 @@ import './Header.css';
 
 function Header() {
     return (
-        <div className='flexh header'>
-            <div className='flexh header_firstchild'>
+        <div className='header'>
+            <div className='header_left'>
                 <Menu className='menubar'/>
                 <img className='header_logo' src={logo}  alt="logo"/>
             </div>
             
-            <div className='flexh header_search'>
+            <div className='header_input'>
                 <input className='search_i' type="text"/>
                 <Search className='search_btn'/>
             </div>
 
-             <div className='flexh header_thirdchild'>
-                <Apps/>
-                <VideoCall/>
-                <Notifications />
+             <div className='header_icons'>
+                <Apps className='header_icon'/>
+                <VideoCall className='header_icon'/>
+                <Notifications className='header_icon' />
                 <Avatar alt="incredibleHulk" src={avatar}/>
              </div>
             

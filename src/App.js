@@ -6,6 +6,7 @@ function App() {
     <div className="app">
       {/* <h1>hello clever programmer!</h1> */}
       <Header />
+      
       {/* sidebar */}
       {/* recommended */}
     </div>
