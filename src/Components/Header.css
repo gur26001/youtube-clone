@@ -10,6 +10,7 @@
 .header_logo {
   object-fit: contain;
   margin-bottom: 2px;
+  margin-left: 5px;
 }
 
 .header_left {

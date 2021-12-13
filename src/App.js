@@ -1,14 +1,19 @@
 import './App.css';
-import Header from './Header';
+import Sidebar from './Components/Sidebar';
+import Header from './Components/Header';
+import RecommendedVideos from './Components/RecommendedVideos';
+
 
 function App() {
   return (
     <div className="app">
       {/* <h1>hello clever programmer!</h1> */}
       <Header />
-      
-      {/* sidebar */}
-      {/* recommended */}
+      <div className='app_page'>
+          <Sidebar/>
+          <RecommendedVideos/>
+      </div>
+    
     </div>
   );
 }
