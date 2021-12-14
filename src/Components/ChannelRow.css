@@ -18,11 +18,12 @@
   margin: 10px 60px;
   object-fit: contain;
 }
-.channelRow_txt>h4{
+.channelRow_channelname{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-items: flex-start;
 }
 .verifiedB{
-    margin-left: 10px;
+    margin: 10px;
 }
+

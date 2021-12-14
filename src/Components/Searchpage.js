@@ -2,6 +2,7 @@ import React from 'react'
 import './Searchpage.css'
 import {Tune } from '@material-ui/icons';
 import ChannelRow from './ChannelRow';
+import VideoRow from './VideoRow';
 
 function Searchpage() {
     return (
@@ -21,15 +22,77 @@ function Searchpage() {
 "
             />
             <hr/>
-            <VideoRow/>
+            <VideoRow 
+            views={"26K"} 
+             verified
+             desciption = {"In today's build, you're gonna learn about How to use React JS to build the Frontend of a Web Application How to use In today's video, I will be talking about, The opportunity that's out there for Frontend Developers & Blockchain Dev..."}
+             timestamp={"2 days ago"}
+             channel ={"Clever Programmer"}
+             title ={"🔴 Build Modern Cryptopunk Clone with React.js & Web 3.0"}
+             image ={"https://i.ytimg.com/vi/hhZtiytNaBQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCp-xKzj-wwd6gHeuwCXrGJKzAtTA"}
+             />
+
+                         <VideoRow 
+            views={"26K"} 
+             verified
+             desciption = {"In today's build, you're gonna learn about How to use React JS to build the Frontend of a Web Application How to use In today's video, I will be talking about, The opportunity that's out there for Frontend Developers & Blockchain Dev..."}
+             timestamp={"2 days ago"}
+             channel ={"Clever Programmer"}
+             title ={"🔴 Build Modern Cryptopunk Clone with React.js & Web 3.0"}
+             image ={" https://i.ytimg.com/vi/4F2m91eKmts/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA-xXKxkdEcnQSRc2t89jCM32_R5g"}
+             />
+
+
+            <VideoRow 
+            views={"26K"} 
+             verified
+             desciption = {"In today's build, you're gonna learn about How to use React JS to build the Frontend of a Web Application How to use In today's video, I will be talking about, The opportunity that's out there for Frontend Developers & Blockchain Dev..."}
+             timestamp={"2 days ago"}
+             channel ={"Clever Programmer"}
+             title ={"🔴 Build Modern Cryptopunk Clone with React.js & Web 3.0"}
+             image ={"https://i.ytimg.com/vi/hhZtiytNaBQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCp-xKzj-wwd6gHeuwCXrGJKzAtTA"}
+             />
+                         <VideoRow 
+            views={"26K"} 
+             verified
+             desciption = {"In today's build, you're gonna learn about How to use React JS to build the Frontend of a Web Application How to use In today's video, I will be talking about, The opportunity that's out there for Frontend Developers & Blockchain Dev..."}
+             timestamp={"2 days ago"}
+             channel ={"Clever Programmer"}
+             title ={"🔴 Build Modern Cryptopunk Clone with React.js & Web 3.0"}
+             image ={" https://i.ytimg.com/vi/4F2m91eKmts/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA-xXKxkdEcnQSRc2t89jCM32_R5g"}
+             />
+                         <VideoRow 
+            views={"26K"} 
+             verified
+             desciption = {"In today's build, you're gonna learn about How to use React JS to build the Frontend of a Web Application How to use In today's video, I will be talking about, The opportunity that's out there for Frontend Developers & Blockchain Dev..."}
+             timestamp={"2 days ago"}
+             channel ={"Clever Programmer"}
+             title ={"🔴 Build Modern Cryptopunk Clone with React.js & Web 3.0"}
+             image ={"https://i.ytimg.com/vi/RDV3Z1KCBvo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-RHIIrX9WSf7IdTa2J4j4wSLtwQ"}
+             />
+
+                         <VideoRow 
+            views={"26K"} 
+             verified
+             desciption = {"In today's build, you're gonna learn about How to use React JS to build the Frontend of a Web Application How to use In today's video, I will be talking about, The opportunity that's out there for Frontend Developers & Blockchain Dev..."}
+             timestamp={"2 days ago"}
+             channel ={"Clever Programmer"}
+             title ={"🔴 Build Modern Cryptopunk Clone with React.js & Web 3.0"}
+             image ={"https://i.ytimg.com/vi/hhZtiytNaBQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCp-xKzj-wwd6gHeuwCXrGJKzAtTA"}
+             />
+                         <VideoRow 
+            views={"26K"} 
+             verified
+             desciption = {"In today's build, you're gonna learn about How to use React JS to build the Frontend of a Web Application How to use In today's video, I will be talking about, The opportunity that's out there for Frontend Developers & Blockchain Dev..."}
+             timestamp={"2 days ago"}
+             channel ={"Clever Programmer"}
+             title ={"🔴 Build Modern Cryptopunk Clone with React.js & Web 3.0"}
+             image ={"https://i.ytimg.com/vi/hhZtiytNaBQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCp-xKzj-wwd6gHeuwCXrGJKzAtTA"}
+             />
+
         </div>
     )
 }
 
 export default Searchpage
-// 
-// Clever Programmer
-// 1.05M subscribers•642 videos
-// You can find awesome programming lessons here! Also, expect programming tips and tricks that will take your coding skills to the ...
-
-// Latest from Clever Programmer
+// https://i.ytimg.com/vi/4F2m91eKmts/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA-xXKxkdEcnQSRc2t89jCM32_R5g
